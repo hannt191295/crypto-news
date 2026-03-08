@@ -1,0 +1,5 @@
+DATABASE_URL="postgresql://hannguyen@localhost:5432/crypto_blog?schema=public"
+
+ADMIN_USERNAME="admin"
+ADMIN_PASSWORD="admin123"
+ADMIN_SECRET="crypto-blog-secret-key-change-in-production"
