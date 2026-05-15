@@ -19,9 +19,7 @@ cp .env.example .env
 # Edit .env → set DATABASE_URL="postgresql://YOUR_MAC_USERNAME@localhost:5432/crypto_blog?schema=public"
 
 # 4. Set up database tables & seed data
-npm run db:generate
-npm run db:migrate
-npm run db:seed
+npm run db:generate && npm run db:migrate && npm run db:seed
 
 # 5. Start
 npm run dev

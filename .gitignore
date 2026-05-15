@@ -1,0 +1,32 @@
+# dependencies
+node_modules
+
+# next.js
+.next
+out
+
+# build
+dist
+
+# env
+.env
+.env*.local
+
+# debug
+npm-debug.log*
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+.DS_Store
+
+# prisma
+src/generated
+
+# vercel
+.vercel
+
+# turbo
+.turbo
